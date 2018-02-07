@@ -1,0 +1,127 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="NewMasterPage.master.cs" Inherits="NewMasterPage" %>
+
+<%@ Register src="HeaderandFooter/Footer.ascx" tagname="Footer" tagprefix="uc1" %>
+
+<%@ Register src="HeaderandFooter/Header.ascx" tagname="Header" tagprefix="uc2" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            border-color: #003366;
+            border-style: ridge;
+            position:relative;
+                   
+                    min-width : 870px;
+        }
+        .style22
+        {
+            min-height:400px;   
+            width: 855px;
+             float:left;  
+                top: 137px;
+                left: 6px;
+               
+          }
+        #form11
+        {
+            top: 15px;
+            left: 10px;
+            position: absolute;
+            height: 1094px;
+            width: 1187px;
+            float: left;
+            background-color: #FFFFFF;
+            z-index: -1;
+        }
+        .style11
+        {
+            height: 18px;
+        }
+        .stylePIC1
+        {
+            top:206px;height: 158px; width: 153px; z-index: -1; position: absolute;
+            left:-158px;
+            left:-1px !important;
+            
+        }
+    </style>
+     <link href="Styles.css" rel="stylesheet" type="text/css" />
+   
+</head>
+
+<body bgcolor="White">
+    <form id="form1" runat="server">
+    
+    <table align="center" class="style1" 
+        style="overflow: visible" border="2" >
+    
+     <tr>
+            <td class="style11" style="padding: -1px; margin: 0px"  >
+                
+                <uc2:Header ID="Header1" runat="server" />
+       <%--          <img src="Images/symbols.jpg" class="stylePIC1"                
+                     />
+      --%><%-- 
+        <img src="Images/number.gif"    style="position:absolute; top: 10px; left:0px; height: 123px; width: 149px; z-index: -2; overflow: visible; visibility: visible;" 
+        />
+      --%>          
+                </td>
+        </tr>
+       
+        
+   <%--     <tr style="margin: 0px; background-color: #FFFFFF;" >
+            <td class="style7"                 
+                style=" background-color: #E1E1FF">
+ 
+  <asp:Panel ID="panelhead" runat="server" 
+                    style="width: 100%; height:125px;" Height="127px" >
+  
+      <img src="Images/symbols.jpg" style="position:absolute; top: 173px; left:-160px; height: 158px; width: 153px; z-index: -1; float:none;" 
+        />
+        
+      <asp:Label ID="Label1" 
+                    runat="server" CssClass="style6" Font-Bold="True" Font-Italic="False" 
+                    Font-Names="Book Antiqua" Font-Overline="False" Font-Size="XX-Large" 
+                    Font-Underline="False" ForeColor="#CC3300" 
+                    Text="Arithmetic Helper"></asp:Label>
+               
+     <img src="Images/number.jpg"    style="position:absolute; top: 431px; left: 867px; height: 122px; width: 139px; z-index: -2; overflow: visible; visibility: visible;" 
+        />
+               
+
+     <img  alt="QuizMineLogo" class="style5" 
+                    src="Images/QuizmineLogo.jpg" />
+    </asp:Panel>
+                    </td>
+            
+        </tr>
+   --%>     
+        <tr>
+            <td class="style2" style="overflow: visible; height:inherit">
+               <asp:ContentPlaceHolder ID="PageArea" runat="server" >
+                </asp:ContentPlaceHolder>
+         
+                
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="style11">
+                <uc1:Footer ID="Footer1" runat="server" />
+                </td>
+        </tr>
+        
+    </table>
+    
+    </form>
+  
+</body>
+</html>

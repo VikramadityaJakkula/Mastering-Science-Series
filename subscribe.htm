@@ -1,0 +1,104 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+	<head>
+		<title>GoToLogin</title>
+		<meta name="vs_defaultClientScript" content="JavaScript">
+		<meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5">
+		<meta name="GENERATOR" content="Microsoft Visual Studio .NET 7.1">
+		<meta name="ProgId" content="VisualStudio.HTML">
+		<meta name="Originator" content="Microsoft Visual Studio .NET 7.1">
+
+		<LINK href="styles.css" type="text/css" rel="stylesheet">
+        <link href="Styles.css" rel="stylesheet" type="text/css" />
+		<script language="javascript">
+	function GoLogin()
+		{
+		
+		if(parent.parent.document.getElementById('tutorial') != null)
+		{
+			
+			parent.parent.location.href ='Login.aspx?SQuizId=' + parent.parent.document.getElementById('QuizId').value+'&tutorial=' + parent.parent.document.getElementById('tutorial').value;
+		}
+		else if(parent.parent.document.getElementById('QuizId') != null)
+		
+		{
+			parent.parent.location.href ='Login.aspx?SQuizId=' + parent.parent.document.getElementById('QuizId').value
+		}
+		
+		else
+		{
+			parent.parent.location.href ='Login.aspx'
+		}
+		
+		}
+		
+		function GoRegister()
+		{
+		
+		parent.parent.location.href='Registration.aspx'
+		}
+		</script>
+	</head>
+	<body >
+		<table class="inner_page_text" id="AnsTable" cellSpacing="0" cellPadding="0" 
+            border="0" align="left">
+			<tr>
+				<td>
+				</td>
+
+			</tr>
+			<tr>
+				<td size="3" face="Arial" align="center">
+					<P>
+						<font size="3" color="red"></font>&nbsp;</P>
+					<P><FONT color="red" size="3"></FONT>&nbsp;</P>
+					<P><FONT color="red" size="3">Please <a class="A12" href="http://www.quizmine.com/login.aspx">Log-in</a>
+							or <a class="A12" href="http://www.quizmine.com/registration.aspx">Subscribe</a> to  access full content.<br>
+
+							<br>
+					</P>
+					</FONT><STRONG><FONT size="3" color="#009900"></FONT></STRONG>
+					<P><STRONG><FONT color="#009900" size="3"></FONT></STRONG>&nbsp;</P>
+					<P><STRONG><FONT color="#009900" size="3"></FONT></STRONG>&nbsp;</P>
+					<P><STRONG><FONT color="#009900" size="3">~10% of Quizmine content is FREE and available 
+								post login</FONT></STRONG></P>
+					<P>
+						<STRONG><FONT color="#009900">
+
+								<br>
+							</FONT></STRONG><b>(Post login you will be able to take free quizzes and see 
+							progress report)</b>
+					</P>
+					<P>&nbsp;</P>
+					<P><FONT color="#cc0033" size="2"><STRONG></STRONG></FONT>&nbsp;</P>
+					<P><FONT color="#cc0033" size="2"><STRONG></STRONG></FONT>&nbsp;</P>
+					<P><FONT color="#cc0033" size="2"><STRONG>Quizmine Yearly Subscription</STRONG></FONT></P>
+					<P><FONT size="2"><STRONG></STRONG></FONT>&nbsp;</P>
+
+					<P><STRONG><FONT size="2">Basic Paid&nbsp;Mode &gt; Take 
+					quizzes and view tutorials </FONT>
+							<FONT size="2">($ 15.00 for one year) </FONT></STRONG>
+					</P>
+					<P><STRONG></STRONG>&nbsp;</P>
+					<P><FONT size="2"><STRONG>Premium Paid Mode&nbsp;&gt; Basic mode + Video and Animation 
+								($ 30.00 for one year)</STRONG></FONT></P>
+
+					<P><STRONG></STRONG>&nbsp;</P>
+					<P><STRONG><STRONG>Lifetime Mode &gt; All of quizmine.com for Lifetime ($ 100.00 for life 
+								time)</STRONG></STRONG></P>
+					<P><STRONG></STRONG>&nbsp;</P>
+					<P><STRONG></STRONG>&nbsp;</P>
+					<P><STRONG></STRONG>&nbsp;</P>
+					<P><STRONG></STRONG>&nbsp;</P>
+					<STRONG>
+
+						<P>For questions please contact <A class="A12" href="mailto:QuizmineGroup@Quizmine.com">
+								QuizmineGroup@Quizmine.com</A>
+						&nbsp; </STRONG></P>
+					<P>&nbsp;</P>
+				</td>
+			</tr>
+		</table>
+
+	</body>
+</html>

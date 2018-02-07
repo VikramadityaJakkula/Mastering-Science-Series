@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Questions>
+  <Velocity>
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;A Object1's meter reads Dist_Loc1km at the start of a trip and Dist_Loc2km at the end. 
+      The trip took Time_Takenh. Calculate speed?&lt;/b&gt;">
+      <Object1>
+        <Obj1>Car</Obj1>
+        <Obj2>Bus</Obj2>
+      </Object1>
+      <Answer>Travel_Speed</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;Velocity Formula: v = d / t&lt;br&gt;&lt;br&gt;Distance Travelled: Dist_Loc2 - Dist_Loc1 = Distance_Traveled&lt;br&gt;Time Taken: Time_Taken&lt;br&gt;
+        &lt;br&gt;&lt;b&gt;Step 1: Calculate v:&lt;/b&gt;&lt;br&gt;v = Distance_Traveled / Time_Taken = Travel_Speed&lt;br&gt;&lt;br&gt;&lt;b&gt; Answer :&lt;/b&gt; Travel_Speed
+      </Soln>
+    </Qns>
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;Object1 took Time_Takenh to drive to his Object2. 
+      Calculate the speed if the distance is Distance_Traveled.&lt;/b&gt;">
+      <Object1>
+        <Obj>Cedric</Obj>
+        <Obj>Sony</Obj>
+      </Object1>
+      <Object2>
+        <Obj>home town</Obj>
+        <Obj>Office</Obj>
+        <Obj>School</Obj>
+      </Object2>
+      <Answer>Travel_Speed</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;Velocity Formula: v = d / t&lt;br&gt;&lt;br&gt;Distance Travelled: Distance_Traveled&lt;br&gt;Time Taken: Time_Taken&lt;br&gt;
+        &lt;br&gt;&lt;b&gt;Step 1: Calculate v:&lt;/b&gt;&lt;br&gt;v = Distance_Traveled / Time_Taken = Travel_Speed&lt;br&gt;&lt;br&gt;&lt;b&gt; Answer :&lt;/b&gt; Travel_Speed
+      </Soln>
+    </Qns>
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;Object1 went to Object2, which is Distance_Traveledkms away. Calculate the time taken in hours by her if speed is Travel_Speed.&lt;/b&gt;">
+      <Object1>
+        <Obj>Sweety</Obj>
+        <Obj>Leena</Obj>
+      </Object1>
+      <Object2>
+        <Obj>Market</Obj>
+      </Object2>
+      <Answer>Time_Taken</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;Velocity Formula: v = d / t&lt;br&gt;Therefore t = d / v&lt;br&gt;
+        &lt;br&gt;Distance Travelled: Distance_Traveled&lt;br&gt;Speed: Travel_Speed&lt;br&gt;
+        &lt;br&gt;&lt;b&gt;Step 1: Calculate t:&lt;/b&gt;&lt;br&gt;t = Distance_Traveled / Travel_Speed = Time_Taken &lt;br&gt;&lt;br&gt;&lt;b&gt; Answer :&lt;/b&gt; Time_Taken
+      </Soln>
+    </Qns>
+  </Velocity>
+  <Acceleration>
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;A Object1 starts from Start_Speedm/s and moves with a constant acceleration of Travel_Accelerationm/s2. Find the distance traveled after Time_Takens.&lt;/b&gt;">
+      <Object1>
+        <Obj1>Car</Obj1>
+        <Obj2>Bus</Obj2>
+      </Object1>
+      <Answer>Distance_Traveled</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;
+        &lt;br&gt; Innitial velocity: Start_Speed
+        &lt;br&gt; Acceleration: Travel_Acceleration
+        &lt;br&gt; Time Taken: Time_Taken
+        &lt;br&gt;&lt;br&gt;&lt;b&gt;Step 1: Calculate Displacement:&lt;/b&gt;
+        &lt;br&gt; x = vo t + 1/2(at^2)
+        &lt;br&gt; So x = ( Start_Speed X Time_Taken ) + 1/2( Travel_Acceleration X Time_Taken X Time_Taken)
+        &lt;br&gt; x = Distance_Traveled
+        &lt;br&gt;&lt;br&gt;&lt;b&gt; Answer : Distance_Traveled &lt;/b&gt;
+      </Soln>
+    </Qns>
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;A Object1 starts from Start_Speed m/s and moves with a constant acceleration of 
+      Travel_Acceleration m/s2. Find its speed after Time_Takens has elapsed.&lt;/b&gt;">
+      <Object1>
+        <Obj1>Car</Obj1>
+        <Obj2>Bus</Obj2>
+      </Object1>
+      <Answer>End_Speed</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;
+        &lt;br&gt; Innitial velocity: Start_Speed
+        &lt;br&gt; Acceleration: Travel_Acceleration
+        &lt;br&gt; Time Taken: Time_Taken
+        &lt;br&gt;&lt;br&gt;&lt;b&gt;Step 1: Calculate Final Velocity:&lt;/b&gt;
+        &lt;br&gt; vf = vo + at
+        &lt;br&gt; So vf = Start_Speed + ( Travel_Acceleration X Time_Taken )
+        &lt;br&gt; vf = End_Speed
+        &lt;br&gt;&lt;br&gt;&lt;b&gt; Answer : End_Speed &lt;/b&gt;
+      </Soln>
+    </Qns>
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;A train running at Start_Speed m/s is increased to End_Speed m/s in Time_Takens. Find the acceleration.&lt;/b&gt;">
+      <Object1>
+        <Obj1>Train</Obj1>
+        <Obj2>Truck</Obj2>
+      </Object1>
+      <Answer>Travel_Acceleration</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;
+        &lt;br&gt; Innitial velocity: Start_Speed
+        &lt;br&gt; Final velocity: End_Speed
+        &lt;br&gt; Time Taken: Time_Taken
+        &lt;br&gt;&lt;br&gt;&lt;b&gt;Step 1: Calculate Acceleration:&lt;/b&gt;
+        &lt;br&gt; vf = vo + at
+        &lt;br&gt; a = (vf - vo) / t
+        &lt;br&gt; So a = (End_Speed -  Start_Speed) / Time_Taken
+        &lt;br&gt; a = Travel_Acceleration
+        &lt;br&gt;&lt;br&gt;&lt;b&gt; Answer : Travel_Acceleration &lt;/b&gt;
+      </Soln>
+    </Qns>
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;A train running at Start_Speed m/s is increased to End_Speed m/s in Time_Takens. Find the stopping distance.&lt;/b&gt;">
+      <Object1>
+        <Obj1>Train</Obj1>
+        <Obj2>TRuck</Obj2>
+      </Object1>
+      <Answer>Distance_Traveled</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;
+        &lt;br&gt; Innitial velocity: Start_Speed
+        &lt;br&gt; Final velocity: End_Speed
+        &lt;br&gt; Time Taken: Time_Taken
+        &lt;br&gt;&lt;br&gt;&lt;b&gt;Step 1: Calculate Acceleration:&lt;/b&gt;
+        &lt;br&gt; vf = vo + at
+        &lt;br&gt; a = (vf - vo) / t
+        &lt;br&gt; So a = (End_Speed -  Start_Speed) / Time_Taken
+        &lt;br&gt; a = Travel_Acceleration
+        &lt;br&gt;&lt;br&gt;&lt;b&gt;Step 2: Calculate Displacement:&lt;/b&gt;
+        &lt;br&gt; x = vo + 1/2(at^2)
+        &lt;br&gt; So x = ( Start_Speed X Time_Taken ) + 1/2( Travel_Acceleration X Time_Taken X Time_Taken)
+        &lt;br&gt; x = Distance_Traveled
+        &lt;br&gt;&lt;br&gt;&lt;b&gt; Answer : Distance_Traveled &lt;/b&gt;
+      </Soln>
+    </Qns>
+  </Acceleration>
+  <Gravity>
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;A Object1 is thrown down with speed of Start_Speed m/s. Find the height if the time taken to reach the ground is Time_Takens.&lt;/b&gt;">
+      <Object1>
+        <Obj>Stone</Obj>
+          <Obj>Ball</Obj>
+       </Object1>
+      <Answer>Distance_Traveled</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;
+        &lt;br&gt; Innitial velocity: Start_Speed
+        &lt;br&gt; Gravitational Force: Travel_Gravity
+        &lt;br&gt; Time Taken: Time_Taken
+        &lt;br&gt;&lt;br&gt;&lt;b&gt;Step 1: Calculate Height:&lt;/b&gt;
+        &lt;br&gt; x = vo t + 1/2(at^2)
+        &lt;br&gt; So x = ( Start_Speed X Time_Taken ) + 1/2( Travel_Gravity X Time_Taken X Time_Taken)
+        &lt;br&gt; x = Distance_Traveled
+        &lt;br&gt;&lt;br&gt;&lt;b&gt; Answer : Distance_Traveled &lt;/b&gt;
+      </Soln>
+    </Qns>
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;A Object1 is thrown down with speed of Start_Speed m/s. Find the speed at which it strikes ground, if it takes Time_Takens to reach ground.&lt;/b&gt;">
+      <Object1>
+        <Obj>Stone</Obj>
+        <Obj>Ball</Obj>
+      </Object1>
+      <Answer>End_Speed</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;
+        &lt;br&gt; Innitial velocity: Start_Speed
+        &lt;br&gt; Acceleration: Travel_Gravity
+        &lt;br&gt; Time Taken: Time_Taken
+        &lt;br&gt;&lt;br&gt;&lt;b&gt;Step 1: Calculate Final Velocity:&lt;/b&gt;
+        &lt;br&gt; vf = vo + at
+        &lt;br&gt; So vf = Start_Speed + ( Travel_Gravity X Time_Taken )
+        &lt;br&gt; vf = End_Speed
+        &lt;br&gt;&lt;br&gt;&lt;b&gt; Answer : End_Speed &lt;/b&gt;
+      </Soln>
+    </Qns>
+
+  </Gravity>
+
+  <Force>
+
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;  A Force_AppliedN force is applied to a Object_Masskg Object1 resting on a horizontal frictionless Object2. Find the acceleration.&lt;/b&gt;">
+      <Object1>
+        <Obj>Stone</Obj>
+        <Obj>Fruit</Obj>
+        <Obj>Book</Obj>
+      </Object1>
+      <Object2>
+        <Obj>Table</Obj>
+        <Obj>Ground</Obj>
+        </Object2>
+      <Answer>Travel_Acceleration</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;
+        &lt;br&gt; Force Applied: Force_Applied
+        &lt;br&gt; Mass: Object_Mass
+        &lt;br&gt;&lt;br&gt;&lt;b&gt;Step 1: Calculate Acceleration:&lt;/b&gt;
+        &lt;br&gt; F = m a
+        &lt;br&gt; So a = F / m = Force_Applied / Object_Mass
+        &lt;br&gt; a = Travel_Acceleration
+        &lt;br&gt;&lt;br&gt;&lt;b&gt; Answer : Travel_Acceleration &lt;/b&gt;
+      </Soln>
+    </Qns>
+    <Qns Question="&lt;b&gt;  Evaluate :&lt;br&gt;  &amp;nbsp;  What is the force required to move a Object1 of Object_Masskg mass with a acceleration of Travel_Accelerationm/s^2.&lt;/b&gt;">
+      <Object1>
+        <Obj>Stone</Obj>
+        <Obj>Fruit</Obj>
+        <Obj>Book</Obj>
+      </Object1>
+      <Object2>
+        <Obj>Table</Obj>
+        <Obj>Ground</Obj>
+      </Object2>
+      <Answer>Force_Applied</Answer>
+      <Soln>
+        &lt;b&gt;Detailed Solution:&lt;/b&gt;&lt;br&gt;
+        &lt;br&gt; Required Acceleration: Travel_Acceleration
+        &lt;br&gt; Mass: Object_Mass
+        &lt;br&gt;&lt;br&gt;&lt;b&gt;Step 1: Calculate Force:&lt;/b&gt;
+        &lt;br&gt; F = m a
+        &lt;br&gt; So F = Object_Mass * Travel_Acceleration = Force_Applied
+        &lt;br&gt;&lt;br&gt;&lt;b&gt; Answer : Force_Applied &lt;/b&gt;
+      </Soln>
+    </Qns>
+  </Force>
+ 
+</Questions>
